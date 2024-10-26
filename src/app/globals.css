@@ -19,3 +19,54 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* ========================= CARD-CAR ======================*/
+/* From Uiverse.io by bhaveshxrawat */
+.col-card-car .card {
+  width: 190px;
+  height: 254px;
+  background: #07182e;
+  position: relative;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.col-card-car .card h2 {
+  z-index: 1;
+  color: white;
+  font-size: 2em;
+}
+
+.col-card-car .card::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  background-image: linear-gradient(180deg, rgb(255, 1, 1), rgb(89, 0, 255));
+  height: 130%;
+  animation: rotBGimg 3.5s linear infinite;
+  transition: all 0.2s linear;
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.col-card-car .card::after {
+  content: "";
+  position: absolute;
+  /* background: #07182e; */
+  inset: 5px;
+  border-radius: 15px;
+}
+/* .card:hover:before {
+  background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+  animation: rotBGimg 3.5s linear infinite;
+} */
