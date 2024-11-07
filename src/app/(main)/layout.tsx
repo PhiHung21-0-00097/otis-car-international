@@ -1,5 +1,4 @@
 import { DefaultLayout } from "@/layouts/DefaultLayout";
-import { Metadata, Viewport } from "next";
 import { ReactNode } from "react";
 
 // export const viewport: Viewport = {
@@ -29,10 +28,9 @@ import { ReactNode } from "react";
 //     }
 //   }
 export default function MainLayout({
-    children
-  }: Readonly<{
-    children: ReactNode
-  }>) {
-    return <DefaultLayout>{children}</DefaultLayout>
-  }
-  
+  children,
+}: Readonly<{
+  children: ReactNode;
+}>) {
+  return <DefaultLayout>{children}</DefaultLayout>;
+}

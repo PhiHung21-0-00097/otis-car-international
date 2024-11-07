@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export const Header = () => {
@@ -23,19 +22,19 @@ export const Header = () => {
                     y1="17.891%"
                     y2="82.109%"
                   >
-                    <stop offset="0%" stop-color="#FFF"></stop>
-                    <stop offset="10%" stop-color="#E7E8E6"></stop>
-                    <stop offset="10%" stop-color="#CDD0D0"></stop>
-                    <stop offset="20%" stop-color="#B5BBBD"></stop>
-                    <stop offset="20%" stop-color="#A5ACAF"></stop>
-                    <stop offset="30%" stop-color="#9BA3A7"></stop>
-                    <stop offset="30%" stop-color="#98A0A4"></stop>
-                    <stop offset="40%" stop-color="#828A8F"></stop>
-                    <stop offset="50%" stop-color="#667075"></stop>
-                    <stop offset="60%" stop-color="#535C63"></stop>
-                    <stop offset="70%" stop-color="#475158"></stop>
-                    <stop offset="80%" stop-color="#434D54"></stop>
-                    <stop offset="100%" stop-color="#475157"></stop>
+                    <stop offset="0%" stopColor="#FFF"></stop>
+                    <stop offset="10%" stopColor="#E7E8E6"></stop>
+                    <stop offset="10%" stopColor="#CDD0D0"></stop>
+                    <stop offset="20%" stopColor="#B5BBBD"></stop>
+                    <stop offset="20%" stopColor="#A5ACAF"></stop>
+                    <stop offset="30%" stopColor="#9BA3A7"></stop>
+                    <stop offset="30%" stopColor="#98A0A4"></stop>
+                    <stop offset="40%" stopColor="#828A8F"></stop>
+                    <stop offset="50%" stopColor="#667075"></stop>
+                    <stop offset="60%" stopColor="#535C63"></stop>
+                    <stop offset="70%" stopColor="#475158"></stop>
+                    <stop offset="80%" stopColor="#434D54"></stop>
+                    <stop offset="100%" stopColor="#475157"></stop>
                   </linearGradient>
                   <linearGradient
                     id="b"
@@ -44,14 +43,14 @@ export const Header = () => {
                     y1="17.857%"
                     y2="82.143%"
                   >
-                    <stop offset="0%" stop-color="#0B1F2A"></stop>
-                    <stop offset="20%" stop-color="#333F47"></stop>
-                    <stop offset="50%" stop-color="#777F84"></stop>
-                    <stop offset="50%" stop-color="#81898D"></stop>
-                    <stop offset="70%" stop-color="#B3B8B8"></stop>
-                    <stop offset="80%" stop-color="#D2D5D3"></stop>
-                    <stop offset="80%" stop-color="#DEE0DD"></stop>
-                    <stop offset="100%" stop-color="#FBFBFB"></stop>
+                    <stop offset="0%" stopColor="#0B1F2A"></stop>
+                    <stop offset="20%" stopColor="#333F47"></stop>
+                    <stop offset="50%" stopColor="#777F84"></stop>
+                    <stop offset="50%" stopColor="#81898D"></stop>
+                    <stop offset="70%" stopColor="#B3B8B8"></stop>
+                    <stop offset="80%" stopColor="#D2D5D3"></stop>
+                    <stop offset="80%" stopColor="#DEE0DD"></stop>
+                    <stop offset="100%" stopColor="#FBFBFB"></stop>
                   </linearGradient>
                   <linearGradient
                     id="c"
@@ -60,24 +59,24 @@ export const Header = () => {
                     y1="97.042%"
                     y2="2.98%"
                   >
-                    <stop offset="0%" stop-color="#E1E3E1"></stop>
-                    <stop offset="10%" stop-color="#C1C5C4"></stop>
-                    <stop offset="30%" stop-color="#9BA1A2"></stop>
-                    <stop offset="50%" stop-color="#7D8487"></stop>
+                    <stop offset="0%" stopColor="#E1E3E1"></stop>
+                    <stop offset="10%" stopColor="#C1C5C4"></stop>
+                    <stop offset="30%" stopColor="#9BA1A2"></stop>
+                    <stop offset="50%" stopColor="#7D8487"></stop>
                     <stop
                       offset="70%"
-                      stop-color="#687074"
-                      stop-opacity="0"
+                      stopColor="#687074"
+                      stopOpacity="0"
                     ></stop>
                     <stop
                       offset="80%"
-                      stop-color="#5B6469"
-                      stop-opacity="0"
+                      stopColor="#5B6469"
+                      stopOpacity="0"
                     ></stop>
                     <stop
                       offset="100%"
-                      stop-color="#576065"
-                      stop-opacity="0"
+                      stopColor="#576065"
+                      stopOpacity="0"
                     ></stop>
                   </linearGradient>
                   <linearGradient
@@ -87,24 +86,24 @@ export const Header = () => {
                     y1="6.703%"
                     y2="93.297%"
                   >
-                    <stop offset="0%" stop-color="#E1E3E1"></stop>
-                    <stop offset="10%" stop-color="#C1C5C4"></stop>
-                    <stop offset="30%" stop-color="#9BA1A2"></stop>
-                    <stop offset="50%" stop-color="#7D8487"></stop>
+                    <stop offset="0%" stopColor="#E1E3E1"></stop>
+                    <stop offset="10%" stopColor="#C1C5C4"></stop>
+                    <stop offset="30%" stopColor="#9BA1A2"></stop>
+                    <stop offset="50%" stopColor="#7D8487"></stop>
                     <stop
                       offset="70%"
-                      stop-color="#687074"
-                      stop-opacity="0"
+                      stopColor="#687074"
+                      stopOpacity="0"
                     ></stop>
                     <stop
                       offset="80%"
-                      stop-color="#5B6469"
-                      stop-opacity="0"
+                      stopColor="#5B6469"
+                      stopOpacity="0"
                     ></stop>
                     <stop
                       offset="100%"
-                      stop-color="#576065"
-                      stop-opacity="0"
+                      stopColor="#576065"
+                      stopOpacity="0"
                     ></stop>
                   </linearGradient>
                   <linearGradient
@@ -114,11 +113,11 @@ export const Header = () => {
                     y1="49.319%"
                     y2="55.931%"
                   >
-                    <stop offset="0%" stop-color="#27343C"></stop>
+                    <stop offset="0%" stopColor="#27343C"></stop>
                     <stop
                       offset="100%"
-                      stop-color="#00111E"
-                      stop-opacity="0"
+                      stopColor="#00111E"
+                      stopOpacity="0"
                     ></stop>
                   </linearGradient>
                   <linearGradient
@@ -128,11 +127,11 @@ export const Header = () => {
                     y1="91.144%"
                     y2="74.539%"
                   >
-                    <stop offset="10%" stop-color="#02131F"></stop>
+                    <stop offset="10%" stopColor="#02131F"></stop>
                     <stop
                       offset="90%"
-                      stop-color="#02131F"
-                      stop-opacity="0"
+                      stopColor="#02131F"
+                      stopOpacity="0"
                     ></stop>
                   </linearGradient>
                   <linearGradient
@@ -142,11 +141,11 @@ export const Header = () => {
                     y1="42.264%"
                     y2="45.063%"
                   >
-                    <stop offset="20%" stop-color="#02131F"></stop>
+                    <stop offset="20%" stopColor="#02131F"></stop>
                     <stop
                       offset="90%"
-                      stop-color="#02131F"
-                      stop-opacity="0"
+                      stopColor="#02131F"
+                      stopOpacity="0"
                     ></stop>
                   </linearGradient>
                   <linearGradient
@@ -156,12 +155,12 @@ export const Header = () => {
                     y1="54.992%"
                     y2="51.331%"
                   >
-                    <stop offset="0%" stop-color="#02131F"></stop>
-                    <stop offset="10%" stop-color="#02131F"></stop>
+                    <stop offset="0%" stopColor="#02131F"></stop>
+                    <stop offset="10%" stopColor="#02131F"></stop>
                     <stop
                       offset="100%"
-                      stop-color="#02131F"
-                      stop-opacity="0"
+                      stopColor="#02131F"
+                      stopOpacity="0"
                     ></stop>
                   </linearGradient>
                   <linearGradient
@@ -171,12 +170,12 @@ export const Header = () => {
                     y1="48.512%"
                     y2="49.95%"
                   >
-                    <stop offset="30%" stop-color="#02131F"></stop>
-                    <stop offset="30%" stop-color="#02131F"></stop>
+                    <stop offset="30%" stopColor="#02131F"></stop>
+                    <stop offset="30%" stopColor="#02131F"></stop>
                     <stop
                       offset="80%"
-                      stop-color="#02131F"
-                      stop-opacity="0"
+                      stopColor="#02131F"
+                      stopOpacity="0"
                     ></stop>
                   </linearGradient>
                   <linearGradient
@@ -186,11 +185,11 @@ export const Header = () => {
                     y1="48.153%"
                     y2="49.231%"
                   >
-                    <stop offset="40%" stop-color="#27343C"></stop>
+                    <stop offset="40%" stopColor="#27343C"></stop>
                     <stop
                       offset="100%"
-                      stop-color="#3B474E"
-                      stop-opacity="0"
+                      stopColor="#3B474E"
+                      stopOpacity="0"
                     ></stop>
                   </linearGradient>
                   <linearGradient
@@ -202,15 +201,15 @@ export const Header = () => {
                   >
                     <stop
                       offset="0%"
-                      stop-color="#24303A"
-                      stop-opacity="0"
+                      stopColor="#24303A"
+                      stopOpacity="0"
                     ></stop>
                     <stop
                       offset="0%"
-                      stop-color="#25323B"
-                      stop-opacity="0"
+                      stopColor="#25323B"
+                      stopOpacity="0"
                     ></stop>
-                    <stop offset="10%" stop-color="#27343C"></stop>
+                    <stop offset="10%" stopColor="#27343C"></stop>
                   </linearGradient>
                   <linearGradient
                     id="l"
@@ -219,11 +218,11 @@ export const Header = () => {
                     y1="102.109%"
                     y2=".874%"
                   >
-                    <stop offset="30%" stop-color="#A5ABAF"></stop>
+                    <stop offset="30%" stopColor="#A5ABAF"></stop>
                     <stop
                       offset="100%"
-                      stop-color="#A5ABAF"
-                      stop-opacity="0"
+                      stopColor="#A5ABAF"
+                      stopOpacity="0"
                     ></stop>
                   </linearGradient>
                   <linearGradient
@@ -233,28 +232,28 @@ export const Header = () => {
                     y1="0%"
                     y2="100%"
                   >
-                    <stop offset="0%" stop-color="#DEE0DD"></stop>
-                    <stop offset="0%" stop-color="#C5C9C7"></stop>
-                    <stop offset="0%" stop-color="#9EA4A5"></stop>
-                    <stop offset="0%" stop-color="#82898C"></stop>
-                    <stop offset="0%" stop-color="#71797D"></stop>
-                    <stop offset="0%" stop-color="#6B7378"></stop>
-                    <stop offset="20%" stop-color="#333F47"></stop>
-                    <stop offset="50%" stop-color="#27343C"></stop>
-                    <stop offset="80%" stop-color="#333F47"></stop>
-                    <stop offset="100%" stop-color="#434D54"></stop>
+                    <stop offset="0%" stopColor="#DEE0DD"></stop>
+                    <stop offset="0%" stopColor="#C5C9C7"></stop>
+                    <stop offset="0%" stopColor="#9EA4A5"></stop>
+                    <stop offset="0%" stopColor="#82898C"></stop>
+                    <stop offset="0%" stopColor="#71797D"></stop>
+                    <stop offset="0%" stopColor="#6B7378"></stop>
+                    <stop offset="20%" stopColor="#333F47"></stop>
+                    <stop offset="50%" stopColor="#27343C"></stop>
+                    <stop offset="80%" stopColor="#333F47"></stop>
+                    <stop offset="100%" stopColor="#434D54"></stop>
                   </linearGradient>
                   <linearGradient id="n" x1="45%" x2="45%" y1="50%" y2="50%">
-                    <stop offset="0%" stop-color="#DEE0DD"></stop>
-                    <stop offset="0%" stop-color="#C5C9C7"></stop>
-                    <stop offset="0%" stop-color="#9EA4A5"></stop>
-                    <stop offset="0%" stop-color="#82898C"></stop>
-                    <stop offset="0%" stop-color="#71797D"></stop>
-                    <stop offset="0%" stop-color="#6B7378"></stop>
-                    <stop offset="20%" stop-color="#333F47"></stop>
-                    <stop offset="50%" stop-color="#27343C"></stop>
-                    <stop offset="80%" stop-color="#333F47"></stop>
-                    <stop offset="100%" stop-color="#434D54"></stop>
+                    <stop offset="0%" stopColor="#DEE0DD"></stop>
+                    <stop offset="0%" stopColor="#C5C9C7"></stop>
+                    <stop offset="0%" stopColor="#9EA4A5"></stop>
+                    <stop offset="0%" stopColor="#82898C"></stop>
+                    <stop offset="0%" stopColor="#71797D"></stop>
+                    <stop offset="0%" stopColor="#6B7378"></stop>
+                    <stop offset="20%" stopColor="#333F47"></stop>
+                    <stop offset="50%" stopColor="#27343C"></stop>
+                    <stop offset="80%" stopColor="#333F47"></stop>
+                    <stop offset="100%" stopColor="#434D54"></stop>
                   </linearGradient>
                   <linearGradient
                     id="o"
@@ -263,35 +262,31 @@ export const Header = () => {
                     y1="12.225%"
                     y2="60.636%"
                   >
-                    <stop offset="70%" stop-color="#27343C"></stop>
-                    <stop offset="70%" stop-color="#2B373F"></stop>
-                    <stop offset="70%" stop-color="#36424A"></stop>
-                    <stop offset="70%" stop-color="#49545B"></stop>
+                    <stop offset="70%" stopColor="#27343C"></stop>
+                    <stop offset="70%" stopColor="#2B373F"></stop>
+                    <stop offset="70%" stopColor="#36424A"></stop>
+                    <stop offset="70%" stopColor="#49545B"></stop>
                     <stop
                       offset="80%"
-                      stop-color="#646D73"
-                      stop-opacity="0"
+                      stopColor="#646D73"
+                      stopOpacity="0"
                     ></stop>
                     <stop
                       offset="80%"
-                      stop-color="#868D92"
-                      stop-opacity="0"
+                      stopColor="#868D92"
+                      stopOpacity="0"
                     ></stop>
                     <stop
                       offset="80%"
-                      stop-color="#B0B5B8"
-                      stop-opacity="0"
+                      stopColor="#B0B5B8"
+                      stopOpacity="0"
                     ></stop>
                     <stop
                       offset="80%"
-                      stop-color="#E1E3E4"
-                      stop-opacity="0"
+                      stopColor="#E1E3E4"
+                      stopOpacity="0"
                     ></stop>
-                    <stop
-                      offset="80%"
-                      stop-color="#FFF"
-                      stop-opacity="0"
-                    ></stop>
+                    <stop offset="80%" stopColor="#FFF" stopOpacity="0"></stop>
                   </linearGradient>
                 </defs>
                 <g fill="none">
@@ -331,7 +326,7 @@ export const Header = () => {
                   ></path>
                   <path
                     fill="#A4AAAE"
-                    fill-opacity=".6"
+                    fillOpacity=".6"
                     d="M56.5,45.4 C56.5,45.3 56.4,45.2 56.3,45 L35.7,29.9 L32.9,31.7 C32.9,31.7 33.1,31.8 33.2,31.7 C33.5,31.6 34.1,31.5 34.7,31.7 C35.2,31.9 56.5,45.5 56.5,45.5 C56.5,45.5 56.5,45.5 56.5,45.4 Z"
                   ></path>
                   <path
@@ -344,7 +339,7 @@ export const Header = () => {
                   ></path>
                   <path
                     fill="#A4AAAE"
-                    fill-opacity=".6"
+                    fillOpacity=".6"
                     d="M30.8 5.3 30.8 6.6 28.6 28.7C28.6 29 28.7 29.3 29 29.5L30.3 30.5 31.2 6.1 31.3 4.2C31 4.4 30.9 4.8 30.8 5.3ZM29.6 30.9 28.4 29.9 8.1 44.6C8.1 44.6 7.5 45 7.4 45.4L7.4 45.4C7.4 45.4 7.4 45.4 7.4 45.4L7.4 45.4 8.1 45 8.1 45 29.4 31.6C29.8 31.4 29.9 31.2 29.6 30.9Z"
                   ></path>
                   <path
@@ -357,7 +352,7 @@ export const Header = () => {
                   ></path>
                   <path
                     fill="url(#g)"
-                    fill-opacity=".8"
+                    fillOpacity=".8"
                     d="M31.7,32.8 C31.7,32.7 31.6,32.6 31.5,32.7 L7.3,46.4 C7.9,46.8 8.5,46.9 9.3,46.6 L31.9,37.5 L31.7,32.8 Z"
                   ></path>
                   <path

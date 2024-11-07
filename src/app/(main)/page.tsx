@@ -3,7 +3,7 @@ import Image from "next/image";
 import { bmw, camry, mer } from "@/public/images";
 
 export const metadata: Metadata = {
-  title: "Viễn Thông A",
+  title: "Otis Car",
 };
 
 const listImageCar = [
